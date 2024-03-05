@@ -11,15 +11,15 @@ import java.util.ArrayList;
         this.namaClient.add("Arya");
         this.alamat.add("Malang");
         this.telepon.add("01234567890");
-        this.saldo.add(100000);
+        this.saldo.add(1000000);
         this.namaClient.add("Alok");
         this.alamat.add("Peak");
         this.telepon.add("01010101010");
-        this.saldo.add(100000);
+        this.saldo.add(1000000);
         this.namaClient.add("Cipto");
         this.alamat.add("Isekai");
         this.telepon.add("10101010101");
-        this.saldo.add(100000);
+        this.saldo.add(1000000);
     }
 
     public void setSaldo(int saldo) {

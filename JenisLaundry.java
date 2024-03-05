@@ -2,7 +2,6 @@ import java.util.ArrayList;
 
 public class JenisLaundry { 
     String namaToko = "\n\tLaundry Frifayer ";
-    String slogan = "\t  ";
 
     private ArrayList<String> jenisLaundry = new ArrayList<String>();
     private ArrayList<Integer> harga = new ArrayList<Integer>();
@@ -11,13 +10,13 @@ public class JenisLaundry {
     public JenisLaundry() {
         this.jenisLaundry.add("Cuci Kering");
         this.harga.add(5000);
-        this.durasi.add(20);
+        this.durasi.add(48);
         this.jenisLaundry.add("Cuci Lipat");
         this.harga.add(10000);
-        this.durasi.add(30);
+        this.durasi.add(50);
         this.jenisLaundry.add("Cuci Setrika");
         this.harga.add(10000);
-        this.durasi.add(30);
+        this.durasi.add(48);
     }
 
     public int getJmlLaundry() {

@@ -1,7 +1,6 @@
 public class Laporan extends JenisLaundry {
     public void NamaToko(){
         System.out.println("\t"+super.namaToko);
-        System.out.println("\t"+super.slogan);
     }
 
     public void laporan(JenisLaundry jenislaundry){
